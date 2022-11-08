@@ -5,41 +5,48 @@ import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
 import Home from '../pages/Home';
 import Scanner from '../pages/Scanner';
+import Camera from '../pages/Camera';
 
 const Stack = createNativeStackNavigator();
 
 export default function Routes() {
- return(
+ return (
   <Stack.Navigator>
 
    <Stack.Screen
     name='Welcome'
     component={Welcome}
-    options={{headerShown: false}}
+    options={{ headerShown: false }}
    />
 
    <Stack.Screen
     name='SignIn'
     component={SignIn}
-    options={{headerShown: false}}
+    options={{ headerShown: false }}
    />
 
    <Stack.Screen
     name='SignUp'
     component={SignUp}
-    options={{headerShown: false}}
+    options={{ headerShown: false }}
    />
 
    <Stack.Screen
     name='Home'
     component={Home}
-    options={{headerShown: false}}
+    options={{ headerShown: false }}
    />
 
-    <Stack.Screen
+   <Stack.Screen
     name='Scanner'
     component={Scanner}
-    options={{headerShown: false}}
+    options={{ headerShown: false }}
+   />
+
+   <Stack.Screen
+    name='Camera'
+    component={Camera}
+    options={{ headerShown: false }}
    />
 
   </Stack.Navigator>

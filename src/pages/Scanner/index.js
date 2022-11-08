@@ -29,21 +29,21 @@ export default function Scanner() {
     return (
         <View style={styles.container}>
 
-    <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader} >
+            <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader} >
 
-    <Animatable.Image
-     animation="flipInY"
-     source={logo}
-     style={styles.logo}
-     resizeMode="contain"
-    />
+                <Animatable.Image
+                    animation="flipInY"
+                    source={logo}
+                    style={styles.logo}
+                    resizeMode="contain"
+                />
 
-    <View style={styles.infos}>
-     <Text style={styles.telaHome}>Bem vindo(a)</Text>
-     <Text style={styles.telaHome}>Teste Nome funcionário</Text>
-    </View>
+                <View style={styles.infos}>
+                    <Text style={styles.telaHome}>Bem vindo(a)</Text>
+                    <Text style={styles.telaHome}>Teste Nome funcionário</Text>
+                </View>
 
-   </Animatable.View>
+            </Animatable.View>
             <Picker
                 selectedValue={salaSelecionada}
                 onValueChange={(itemValue, itemIndex) =>
@@ -59,7 +59,7 @@ export default function Scanner() {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => navigation.navigate('Scanner')}
+                onPress={() => navigation.navigate('Camera')}
             >
                 <Text style={styles.buttonText}>Começar</Text>
             </TouchableOpacity>
