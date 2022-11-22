@@ -61,8 +61,10 @@ const styles = StyleSheet.create({
   fontSize: 16
  },
  logo: {
-  width: '80px',
-  height: '80px'
+  width: '20%',
+  height: '100%',
+  
+
  },
 })
 

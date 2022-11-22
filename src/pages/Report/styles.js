@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
   color: '#fff'
  },
  perfil: {
-    width: '100px',
-    height: '100px'
+    width: '100%',
+    height: '100%'
  },
  containerBody:{
   backgroundColor: '#fff',
@@ -84,8 +84,8 @@ const styles = StyleSheet.create({
  },
 
  logo:{
-  width:'100px',
-  height: '100px'
+  width:'100%',
+  height: '100%'
  },
 
  buttonText:{
