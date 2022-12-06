@@ -59,7 +59,7 @@ export default function Scanner() {
 
             <TouchableOpacity
                 style={styles.button}
-                onPress={() => navigation.navigate('Camera')}
+                onPress={() => navigation.navigate('AssetList')}
             >
                 <Text style={styles.buttonText}>Começar</Text>
             </TouchableOpacity>

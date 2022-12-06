@@ -7,6 +7,7 @@ import Home from '../pages/Home';
 import Scanner from '../pages/Scanner';
 import Camera from '../pages/Camera';
 import Report from '../pages/Report';
+import AssetList from '../pages/AssetList';
 
 const Stack = createNativeStackNavigator();
 
@@ -53,6 +54,12 @@ export default function Routes() {
  <Stack.Screen
     name='Report'
     component={Report}
+    options={{ headerShown: false }}
+   />
+
+<Stack.Screen
+    name='AssetList'
+    component={AssetList}
     options={{ headerShown: false }}
    />
 
