@@ -9,6 +9,7 @@ import Camera from '../pages/Camera';
 import Report from '../pages/Report';
 import AssetList from '../pages/AssetList';
 
+
 const Stack = createNativeStackNavigator();
 
 export default function Routes() {

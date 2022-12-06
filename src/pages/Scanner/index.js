@@ -21,6 +21,8 @@ import { Picker } from '@react-native-picker/picker';
 
 import logo from '../../../src/assets/logo.png'
 
+
+
 export default function Scanner() {
     const navigation = useNavigation();
     const [salas] = useState(['Sala 1', 'Sala 2', 'Sala 3'])
