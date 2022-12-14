@@ -12,48 +12,44 @@ import {
 
 } from 'react-native';
 
-import { Ionicons } from '@expo/vector-icons';
 
-import * as Animatable from 'react-native-animatable';
 
 import { useNavigation } from '@react-navigation/native';
 
+
+import {Table} from 'react-bootstrap';
+
 import styles from './styles';
-
-import logo from '../../../src/assets/logo.png';
-
-import {Table} from 'react-bootstrap'
-
-
-
-
 
 export default function AssetList() {
     const navigation = useNavigation();
 
-
     return (
-        <View>
-
+        <View style={styles.container}>
             <Table>
-                <thead>
+                <thead style={styles.containerHeader}>
                     <tr>
 
                         <th>Ativo</th>
                         <th>ID</th>
                         <th>Botao</th>
                     </tr>
+
+
+                    
                 </thead>
 
-                <tbody>
+                <tbody style={styles.tr}>
 
 
 
                     <tr>
                         <td>Teste</td>
                         <td>Teste</td>
-                        <td></td>
+                        <td>Teste</td>
+                        
                     </tr>
+                   
 
 
                     {/* {
